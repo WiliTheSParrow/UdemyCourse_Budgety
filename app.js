@@ -32,7 +32,10 @@ var controller = (function (budgetCtrl, UICtrl) {
     // !!keyCode
     document.addEventListener('keypress', function (event) {
 
-        console.log(event);
+        // 'which' for older browser
+        if (event.keyCode === 13 || event.which === 13) {
+            console.log('ENTER was pressed.');
+        }
 
     });
 
