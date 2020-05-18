@@ -13,8 +13,7 @@ var UIContorller = (function () {
 // GLOBAL APP CONTROLLER
 var controller = (function (budgetCtrl, UICtrl) {
 
-    document.querySelector('.add__btn').addEventListener('click', function () {
-
+    var ctrlAddItem = function () {
         // 1. Get the field input data
 
         // 2. Add the item to the budget controller
@@ -25,8 +24,10 @@ var controller = (function (budgetCtrl, UICtrl) {
 
         // 5. Display the budget on the UI
 
+        console.log('it works');
+    }
 
-    });
+    document.querySelector('.add__btn').addEventListener('click', ctrlAddItem);
 
     // Keypress event
     // !!keyCode
@@ -34,7 +35,7 @@ var controller = (function (budgetCtrl, UICtrl) {
 
         // 'which' for older browser
         if (event.keyCode === 13 || event.which === 13) {
-            console.log('ENTER was pressed.');
+            ctrlAddItem();
         }
 
     });
