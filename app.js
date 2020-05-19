@@ -39,12 +39,10 @@ var controller = (function (budgetCtrl, UICtrl) {
         // Keypress event
         // !!keyCode
         document.addEventListener('keypress', function (event) {
-
             // 'which' for older browser
             if (event.keyCode === 13 || event.which === 13) {
                 ctrlAddItem();
             }
-
         });
     };
 
@@ -63,4 +61,14 @@ var controller = (function (budgetCtrl, UICtrl) {
 
     };
 
+    return{
+        init: function(){
+            console.log('App has started');
+            setupEventListeners();
+        }
+    };
+
 })(budgetController, UIController);
+
+// This is the only line of code which sits alone, not structured:
+controller.init();
