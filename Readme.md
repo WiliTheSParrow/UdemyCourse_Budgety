@@ -18,7 +18,7 @@ Budgety for Udemy course: The Complete JavaScript Course 2020: Build Real Projec
 In this project we learned, how to...:
 * ...think and plan to build the project,
 * ...structure code with modules,
-* private and public data, encapsulation, separation of concerns,
+* ...private and public data, encapsulation, separation of concerns,
 * ...set up event listeners for keypress events,
 * ...use event object,
 * ...and why make an initialization function,
@@ -39,7 +39,7 @@ This project was built by <a href="https://www.linkedin.com/in/wjulia91/">Julia 
 * Version 1.0
 
 ## Status
-Project is: _finished_
+Project is: _ongoing_
 
 ## Contact
 Created by [@wjulia91](https://www.linkedin.com/in/wjulia91/) - feel free to contact me!
