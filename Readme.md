@@ -21,6 +21,7 @@ In this project we learned:
 * Private and public data, encapsulation, separation of concerns.
 * How to set up event listeners for keypress events.
 * How to use event object.
+* How and why make an initialization function.
 
 This project was built by <a href="https://www.linkedin.com/in/wjulia91/">Julia Wilhelm</a> for Jonas Schmedtmann's online course <a href="https://www.udemy.com/share/101WfeB0cbc1xbTHw=/">The Complete JavaScript Course 2020: Build Real Projects!</a>. Copyright © by Jonas Schmedtmann. 
 
