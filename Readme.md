@@ -33,7 +33,7 @@ This project was built by <a href="https://www.linkedin.com/in/wjulia91/">Julia 
 * CSS
 
 ## Click on the link below to check out this project
-<a href="#">link</a>
+<a href="#">coming soon.</a>
 
 ## Features
 * Version 1.0
