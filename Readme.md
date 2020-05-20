@@ -25,7 +25,10 @@ In this project we learned, how to...:
 * ...choose function constructors that meet the app's needs,
 * ...set up a proper data structure for the budget controller,
 * ...avoid conflicts in the data structures,
-* ...and why to pass data from  one module to another
+* ...and why to pass data from  one module to another,
+* a technique for adding big chunks of HTML into the DOM,
+* ...replace parts of strings,
+* ... do DOM manipulation using the _insertAdjacentHTML_ method
 
 This project was built by <a href="https://www.linkedin.com/in/wjulia91/">Julia Wilhelm</a> for Jonas Schmedtmann's online course <a href="https://www.udemy.com/share/101WfeB0cbc1xbTHw=/">The Complete JavaScript Course 2020: Build Real Projects!</a>. Copyright © by Jonas Schmedtmann. 
 
