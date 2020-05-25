@@ -33,6 +33,8 @@ In this project we learned, how to...:
 * ...use _querySelectorAll_,
 * ...convert a list to an array,
 * _foreach_
+* ...how to convert field inputs to numbers,
+* ...how to prevent false inputs
 
 This project was built by <a href="https://www.linkedin.com/in/wjulia91/">Julia Wilhelm</a> for Jonas Schmedtmann's online course <a href="https://www.udemy.com/share/101WfeB0cbc1xbTHw=/">The Complete JavaScript Course 2020: Build Real Projects!</a>. Copyright © by Jonas Schmedtmann. 
 
