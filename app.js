@@ -112,6 +112,13 @@ var UIController = (function () {
 
         },
 
+        clearFields: function () {
+            var fields;
+
+            // querySelectorAll returns a LIST and we cannot use a lot of functions on it
+            fields = document.querySelectorAll(DOMstrings.inputDescription + ',' + DOMstrings.inputValue);
+        }
+
         getDOMstrings: function () {
             return DOMstrings;
         }
