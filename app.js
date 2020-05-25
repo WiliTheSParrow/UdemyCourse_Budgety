@@ -113,13 +113,18 @@ var UIController = (function () {
         },
 
         clearFields: function () {
-            var fields;
+            var fields, fieldsArr;
 
             // querySelectorAll returns a LIST and we cannot use a lot of functions on it, slice() returns a copy of an array and we can "trick" it by adding a list to it to return an array
             fields = document.querySelectorAll(DOMstrings.inputDescription + ',' + DOMstrings.inputValue);
 
-            Array.prototype.splice.call(fields);
-        }
+            fieldsArr = Array.prototype.slice.call(fields);
+
+            fieldsArr.forEach(function (current, index, array) {
+                current.value = "";
+
+            })
+        },
 
         getDOMstrings: function () {
             return DOMstrings;
