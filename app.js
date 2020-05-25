@@ -79,6 +79,8 @@ var budgetController = (function () {
 
             if (data.totals.inc > 0) {
                 data.percentage = Math.round((data.totals.exp / data.totals.inc) * 100);
+            } else{
+                data.percentage = -1;
             }
 
 
