@@ -28,13 +28,16 @@ In this project we learned, how to...:
 * ...and why to pass data from  one module to another,
 * a technique for adding big chunks of HTML into the DOM,
 * ...replace parts of strings,
-* ... do DOM manipulation using the _insertAdjacentHTML_ method
+* ... do DOM manipulation using the _insertAdjacentHTML_ method,
 * ...clear HTML fields,
 * ...use _querySelectorAll_,
 * ...convert a list to an array,
-* _foreach_
-* ...how to convert field inputs to numbers,
-* ...how to prevent false inputs
+* _foreach_,
+* ...convert field inputs to numbers,
+* ...prevent false inputs,
+* ...use event delegation in practice,
+* ...use IDs in HTML to connect the UI with the data model,
+* ...use the _parentNode_ property for DOM traversing
 
 This project was built by <a href="https://www.linkedin.com/in/wjulia91/">Julia Wilhelm</a> for Jonas Schmedtmann's online course <a href="https://www.udemy.com/share/101WfeB0cbc1xbTHw=/">The Complete JavaScript Course 2020: Build Real Projects!</a>. Copyright © by Jonas Schmedtmann. 
 
