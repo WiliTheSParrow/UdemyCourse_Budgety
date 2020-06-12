@@ -37,7 +37,9 @@ In this project we learned, how to...:
 * ...prevent false inputs,
 * ...use event delegation in practice,
 * ...use IDs in HTML to connect the UI with the data model,
-* ...use the _parentNode_ property for DOM traversing
+* ...use the _parentNode_ property for DOM traversing,
+* ...loop over an array with _map_,
+* ...remove elements from an array using the _splice_ method.
 
 This project was built by <a href="https://www.linkedin.com/in/wjulia91/">Julia Wilhelm</a> for Jonas Schmedtmann's online course <a href="https://www.udemy.com/share/101WfeB0cbc1xbTHw=/">The Complete JavaScript Course 2020: Build Real Projects!</a>. Copyright © by Jonas Schmedtmann. 
 
