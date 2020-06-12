@@ -69,6 +69,7 @@ var budgetController = (function () {
         deleteItem: function (type, id) {
             var ids, index;
             // id = 3
+            // in this case, we can't use this: data.allItems[type][id]
             // [1 2 4 6 8]
             // index = 3
 
@@ -76,6 +77,9 @@ var budgetController = (function () {
                 return current.id;
             });
             index = ids.indexOf(id);
+            if (index !== -1) {
+                data.allItems[type].splice(index, 1);
+            }
         },
 
         calculateBudget: function () {
