@@ -208,6 +208,12 @@ var UIController = (function () {
 
     };
 
+    var nodeListForEach = function (list, callback) {
+        for (var i = 0; i < list.length; i++) {
+            callback(list[i], i);
+        }
+    };
+
     return {
         getInput: function () {
             return {
@@ -282,11 +288,7 @@ var UIController = (function () {
             // This will return a node list:
             var fields = document.querySelectorAll(DOMstrings.expensesPercLabel);
 
-            var nodeListForEach = function (list, callback) {
-                for (var i = 0; i < list.length; i++) {
-                    callback(list[i], i);
-                }
-            };
+
 
             nodeListForEach(fields, function (current, index) {
                 if (percentages[index] > 0) {
@@ -306,6 +308,22 @@ var UIController = (function () {
             month = now.getMonth();
             year = now.getFullYear();
             document.querySelector(DOMstrings.dateLabel).textContent = months[month] + ' ' + year;
+        },
+
+        changedType: function () {
+
+            var fields = document.querySelectorAll(
+                // These will receive the red focus class:
+                DOMstrings.inputType + ',' +
+                DOMstrings.inputDescription + ',' +
+                DOMstrings.inputValue
+
+            );
+
+            nodeListForEach(fields, function (cur) {
+                // toggle adds an element if it's not there and removes it if it's there
+                cur.classList.toggle('red-focus');
+            });
         },
 
 
@@ -332,6 +350,8 @@ var controller = (function (budgetCtrl, UICtrl) {
         });
 
         document.querySelector(DOM.container).addEventListener('click', ctrDeleteItem);
+        document.querySelector(DOM.inputType).addEventListener('change', UICtrl.changedType);
+
     };
 
     var updateBudget = function () {
