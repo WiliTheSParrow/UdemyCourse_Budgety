@@ -324,6 +324,8 @@ var UIController = (function () {
                 // toggle adds an element if it's not there and removes it if it's there
                 cur.classList.toggle('red-focus');
             });
+
+            document.querySelector(DOMstrings.inputBtn).classList.toggle('red');
         },
 
 
